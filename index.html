@@ -1,0 +1,67 @@
+ <html>
+    <head>
+        <title>Login page</title>
+    </head>
+    <body>
+        <h1>Simple Login Page</h1>
+        <form name="login">
+            Username<input type="text" name="userid"/>
+            Password<input type="password" name="pswrd"/>
+            <input type="button" onclick="check(this.form)" value="Login"/>
+            <input type="reset" value="Cancel"/>
+        </form>
+        <script language="javascript">
+            function check(form) { /*function to check userid & password*/
+                /*the following code checkes whether the entered userid and password are matching*/
+                if(form.userid.value == "Matt Harris" && form.pswrd.value == "1999") {
+                    window.open('https://www.youtube.com/watch?v=sAhEFuq62-I&ab_channel=Dazman21')/*opens the target page while Id & password matches*/
+                }
+                else {
+                    alert("Error Password or Username")/*displays error message*/
+                }
+            }
+        </script>
+    </body>
+</html>
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<META charset="utf-8">
+<META name="author" content="Harry Murphy">
+<META name="viewport" content="width=device-width, initial-scale=1.0">
+<LINK REL="stylesheet" href="timeline.css">
+<LINK REL="shortcut icon" href="favicon.ico" >
+<style>
+ h2 { border-top:1px Gainsboro }
+ tt,pre { font-size:12pt }
+ ul,ol { margin-top:0 }
+ h4 { margin-bottom:0 }
+ img { border:1px Gainsboro}
+ body { color:Gainsboro; background:Gainsboro; margin:3; font-size:14pt;
+         font-family: 'Baskerville Old Face', serif;}
+ table.compact th,td { padding:2px 4px 2px 4px }
+ div.languages { overflow-x: auto } 
+ span.boton { padding:0 4px 0 4px; white-space:nowrap }
+</style>
+</head>
+
+ <body>
+ <div style="margin:12px">
+
+<table width="100%" style="border-bottom:1px solid lightgrey;">
+<tr>
+<td onclick="document;location.href='index.html';"
+ style="color:solid grey; 
+   cursor:pointer; float:right; font-size:20px; font-family:times">
+<i>Harry Murphy's Personal Website</i>
+</table>
+
+<div class="clear" style="border-bottom:0px solid lightgrey;
+ margin:6px 32px 0 16px">
+
+<div class="clear" style="border-bottom:0px solid lightgrey;
+ margin:6px 32px 0 16px">
+ 
+    
+ 
